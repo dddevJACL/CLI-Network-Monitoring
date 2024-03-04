@@ -4,10 +4,10 @@ Monitor and Configure Network Connections in the CLI
 
 To run this project, you will Python installed, and will need to install all 
 packages from pip that are listed below:
-pip install prompt-toolkit
-pip install requests
-pip install ntplib
-pip install dnspython
+* pip install prompt-toolkit
+* pip install requests
+* pip install ntplib
+* pip install dnspython
 
 
 To run the program, open the windows command prompt,
