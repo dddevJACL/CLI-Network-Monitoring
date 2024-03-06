@@ -1,8 +1,14 @@
 # CLI-Network-Monitoring
 Monitor and Configure Network Connections in the CLI
 
+## To run:
+1. After cloning or downloading, navigate to the directory on your computer where the do directory lies
+2. (optional, suggested) Create a virtual environment, so that installed packages will only affect / be available to this project. To start up a python virtual environment:
+      * a. pip install virtualenv                (install the virtual environment package)
+      * b. python -m venv network_monitoring     (create a virtual environment, 'network_monitoring' can be replaced with a name of your choosing)
+      * c. network_monitoring \Scripts\activate   (activate the virtual environment, type 'deactivate' to close
 
-To run this project, you will Python installed, and will need to install all 
+To run this project, you will need Python installed, and will need to install all 
 packages from pip that are listed below:
 * pip install prompt-toolkit
 * pip install requests
@@ -11,7 +17,7 @@ packages from pip that are listed below:
 
 
 To run the program, open the windows command prompt,
-navigate to the folder where you extracted the two
+navigate to the folder where you extracted the
 python files (Network_Monitoring_App.py and Monitoring_Configuration.py), then type:
 python Network_Monitoring_App.py
 (Or the given way to run a file on your system)
